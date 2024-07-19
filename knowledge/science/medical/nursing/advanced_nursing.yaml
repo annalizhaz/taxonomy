@@ -1,0 +1,72 @@
+---
+version: 2
+task_description: Answer nursing student questions
+created_by: annalizhaz
+domain: nursing
+seed_examples:
+  - question: What should the concentration of intravenous fluid be?
+    answer: >
+      There are three types of intravenous fluid concentrations: isotonic,
+      hypertonic, and hypotonic fluids. Isotonic fluids are typically
+      administered for fluid and electrolyte replacement. Isotonic fluids have a
+      similar concentration to the solutes contained in blood, so they do not
+      cause the osmotic movement of fluid into or out of the patient’s
+      individual cells. An example of isotonic fluid is 0.9% normal saline.
+      Hypertonic fluids have a higher concentration of solutes than blood. They
+      are typically used in critical care situations to treat hyponatremia and
+      avoid pulmonary edema by relying on osmosis to help remove excess fluid.
+      An example of a hypertonic fluid is dextrose 5% in 0.9% normal saline
+      (D5NS). Hypotonic fluids have a lower concentration of solutes than blood.
+      The goal of hypotonic fluid administration is to move fluids into a
+      patient’s cells due to osmosis. Hypotonic solutions are commonly used when
+      a patient has severe intracellular dehydration such as during diabetic
+      ketoacidosis. An example of hypotonic fluid is 0.45% normal saline
+      (1/2NS).
+  - question: What is the first-pass effect?
+    answer: >
+      The first-pass effect is the action that occurs when a medication must
+      be first metabolized or broken down prior to entering the blood.
+      First-pass effect results in a diminished volume of available circulating
+      drug and a subsequent decrease in therapeutic action.
+  - question: Where is venipuncture performed?
+    answer: >
+      Blood collection is commonly performed via venipuncture from veins in
+      the arms or hands. The most common sites for venipuncture are the large
+      veins located on the antecubital fossa (i.e., the inner side of the
+      elbow). These veins are often preferred for venipuncture because their
+      larger size increases their ability to withstand repetitive blood
+      sampling. However, these veins are not preferred for intravenous therapy
+      due to the mechanical obstruction that can occur in the IV catheter when
+      the elbow joint is contracted.
+  - question: What type of blood can people with blood type A receive?
+    answer: >
+      Patients with type A blood can receive type A or type O blood, but
+      another factor is whether their blood is "Rh+" or "Rh-", indicating the
+      presence or absence of the D antigen in their blood. If they are Rh+ they
+      can recieve either Rh+ or Rh- blood, but if they are Rh- they can recieve
+      only Rh- blood.
+  - question: What do blood pressure readings mean?
+    answer: >
+      A blood pressure reading is the measurement of the force of blood
+      against the walls of the arteries as the heart pumps blood through the
+      body. Blood pressure readings consist of two numbers one on top of the
+      other. The top number is the systolic blood pressure and the bottom is the
+      diastolic blood pressure. The systolic blood pressure is the maximum
+      pressure on the arteries during systole, the phase of the heartbeat when
+      the ventricles contract. Diastolic blood pressure is the resting pressure
+      on the arteries during diastole, the phase between each contraction of the
+      heart when the ventricles are filling with blood. Both numbers are given
+      in millimeters of mercury (mmHg). Normal systolic blood pressure is 120
+      mmHg or less, while normal diastolic blood pressure is 80 mmHg or less.
+document:
+  repo: https://github.com/annalizhaz/nursing_data
+  commit: 16151f3
+  patterns:
+    - Chapter 1 Initiate IV Therapy - Nursing Advanced Skills - NCBI Bookshelf.md
+    - Chapter 11 Oxygen Therapy - Nursing Skills - NCBI Bookshelf.md
+    - Chapter 2 Administer IV Push Medications - Nursing Advanced Skills - NCBI
+      Bookshelf.md
+    - Chapter 23 IV Therapy Management - Nursing Skills - NCBI Bookshelf.md
+    - Chapter 3 Administer Blood Products - Nursing Advanced Skills - NCBI
+      Bookshelf.md
+    - Chapter 3 Blood Pressure - Nursing Skills - NCBI Bookshelf.md
